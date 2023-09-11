@@ -1,4 +1,4 @@
-import * as elements from "typed-html";
+import elements from "typed-html";
 import { type Todo } from "@prisma/client";
 
 export function TodoItem({ content, completed, id }: Todo) {

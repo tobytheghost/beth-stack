@@ -1,4 +1,4 @@
-import * as elements from "typed-html";
+import elements from "typed-html";
 
 export const Body = () => {
   return (

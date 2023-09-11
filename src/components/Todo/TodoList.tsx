@@ -1,4 +1,4 @@
-import * as elements from "typed-html";
+import elements from "typed-html";
 import { type Todo } from "@prisma/client";
 
 import { TodoForm } from "../Todo/TodoForm";

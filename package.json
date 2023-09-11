@@ -11,8 +11,8 @@
   "module": "src/index.tsx",
   "type": "module",
   "scripts": {
-    "db:push": "bunx drizzle-kit push:sqlite",
-    "db:studio": "bunx drizzle-kit studio",
+    "db:push": "bunx prisma db push",
+    "db:studio": "bunx prisma studio",
     "dev": "concurrently \"bun run --watch src/index.tsx\" \"bun run tw:dev\"",
     "tw": "bunx tailwindcss -i ./src/styles.css -o ./tailwind-gen/styles.css",
     "tw:dev": "bunx tailwindcss -i ./src/styles.css -o ./tailwind-gen/styles.css --watch"

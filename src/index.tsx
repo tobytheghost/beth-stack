@@ -1,6 +1,6 @@
 import { Elysia, t } from "elysia";
 import { html } from "@elysiajs/html";
-import * as elements from "typed-html";
+import elements from "typed-html";
 import { prisma } from "./db";
 
 import { Html } from "./components/layout/Html";
