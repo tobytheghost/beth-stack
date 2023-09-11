@@ -167,3 +167,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.\*
+
+# Generated tailwind css file 
+
+tailwind-gen/
